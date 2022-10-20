@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>YameTeam</title>
+    <link rel="stylesheet" href="mainPage.css">
+    <link rel="icon" href="/images/logo.ico" type="image">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <header class="header">Bienvenue !</header>
+
+        <!--NavBar-->
+        <nav class="navbar">
+          <ul class="navbar-nav">
+            <li class="logo">
+              <a href="#" class="nav-link">
+                <span class="link-text logo-text">Yameteam</span>
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fad"
+                  data-icon="angle-double-right"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                  class="svg-inline--fa fa-angle-double-right fa-w-14 fa-5x"
+                >
+                  <g class="fa-group">
+                    <path
+                      fill="currentColor"
+                      d="M224 273L88.37 409a23.78 23.78 0 0 1-33.8 0L32 386.36a23.94 23.94 0 0 1 0-33.89l96.13-96.37L32 159.73a23.94 23.94 0 0 1 0-33.89l22.44-22.79a23.78 23.78 0 0 1 33.8 0L223.88 239a23.94 23.94 0 0 1 .1 34z"
+                      class="fa-secondary"
+                    ></path>
+                    <path
+                      fill="currentColor"
+                      d="M415.89 273L280.34 409a23.77 23.77 0 0 1-33.79 0L224 386.26a23.94 23.94 0 0 1 0-33.89L320.11 256l-96-96.47a23.94 23.94 0 0 1 0-33.89l22.52-22.59a23.77 23.77 0 0 1 33.79 0L416 239a24 24 0 0 1-.11 34z"
+                      class="fa-primary"
+                    ></path>
+                  </g>
+                </svg>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="./lilisite/html/sommaire.html" class="nav-link">
+                <span class="link-text">Tâche Olivier</span>
+              </a>
+            </li>
+            <!-- <li class="nav-item">
+              <a href="./404.html" class="nav-link">
+                <span class="link-text">Tâche Grand Noah</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="./404.html" class="nav-link">
+                <span class="link-text">Tâche Petit Noah</span>
+              </a>
+            </li> -->
+            <!--<li class="nav-item">
+              <a href="https://github.com/LiquorLips" class="nav-link">
+                <span class="link-text">GitHub</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://discord.com/oauth2/authorize?client_id=837671311371010048&scope=bot&permissions=1099511627775" class="nav-link">
+                <span class="link-text">Bot Discord</span>
+              </a>
+            </li>-->
+	    <li class="nav-item">
+              <a href="./fluppyburd/index.html" class="nav-link">
+                <span class="link-text">Un Flappy Bird?</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="./creds/creds.html" class="nav-link">
+                <span class="link-text">crédits</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        
+        <!--Main-->
+
+          <div class="box" id="fcurs">
+            <p>Ici sont hébergées plusieurs sites. Vous pouvez y accéder par la barre de navigation à gauche :)</p>
+          </div>
+        <!--scripts-->
+    <script type="text/javascript">
+      var fcurs = document.getElementById('fcurs');
+      document.addEventListener('mousemove', function(e){
+        var x = e.clientX;
+        var y = e.clientY;
+        cursor.style.left = x + "px";
+        cursor.style.top = y + "px";
+      });
+    </script>
+      
+    <div id="particles-js"></div>
+	  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+
+    <script type="text/javascript" src="./lilisite/js/tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".box"), {
+		  max: 25,
+		  speed: 400,
+      glare: true,
+      "max-glare": 0.5,
+	  });
+    </script>
+</body>
+</html>

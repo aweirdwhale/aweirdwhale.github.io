@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Glassmorphism</title>
+    <link rel="shortcut icon" href="../logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/glassmorphism.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <header class="blur">
+                <h1 class="logo">Le Glassmorphism</h1>
+                <ul>
+                    <li><a href="./neumorphism.html">UI trends : Neumorphism</a></li>
+                    <li><a href="https://dribbble.com/search/glassmorphism%20ui">Exemples sur dribbble</a></li>
+                    <li><a href="./index.html">Revenir en arrière</a></li>
+                </ul>
+            </header>
+            <header>
+                <h1 class="logo">Le Glassmorphism</h1>
+                <ul>
+                    <li><a href="./neumorphism.html">UI trends : Neumorphism</a></li>
+                    <li><a href="https://dribbble.com/search/glassmorphism%20ui">Exemples sur dribbble</a></li>
+                    <li><a href="./index.html">Revenir à l'accueuil</a></li>
+                </ul>
+            </header>
+            <div class="tilt">
+                <div class="content">
+                    <h2>Glassmorphism UI</h2>
+                    <p>Le glassmorphism tient son nom à l’effet qu’il produit. En effet, ce design accentue la transparence pour un effet "verre". 
+                        Les premiers effets de glassmorphism sont apparus avec Apple et l'IOS7. Ils sont excessivement populaires depuis 2020.
+                        Et pour cause: L’objectif du glassorphism est de créer une hiérarchie des visuels. Pour cette raison, les designers utilisent 
+                        la profondeur de l’image. De cette manière, l’utilisateur va trier les informations les plus importantes sans même s’en rendre 
+                        compte. Et ce, pour une meilleure expérience utilisateur. En plus de son utilité, le glassmorphism est aussi un design résolument 
+                        moderne. Grâce à quelques effets, comme le tilt sur cette carte, l’interface devient plus dynamique.</p>
+                </div>
+            </div>
+
+
+            <div class="imgBx">
+                <img src="../images/character2.png" alt="char">
+            </div>
+            <img class='emoji' src="../images/thinking-face.png" alt="char">
+
+        </div>
+    </section>
+    <script src="../js/movesemojis.js"></script>
+    <script src="../js/tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".tilt"), {
+		    max: 10,
+		    speed: 400,
+            reverse: false,
+            glare: true,
+            "max-glare": 0.2,
+	  });
+    </script>
+</body>
+</html>
