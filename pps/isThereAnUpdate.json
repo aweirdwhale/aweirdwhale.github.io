@@ -4,6 +4,6 @@
     "version": "Bêta - 0.3.1",
     "securityUpdate": false,
     "updateType": "Bêta",
-    "isNeeded": true,
+    "isNeeded": false,
     "ilink": "http://jdocopilot.me/pps/21.jpg"
 }
