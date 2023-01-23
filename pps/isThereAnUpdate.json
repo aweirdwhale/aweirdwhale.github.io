@@ -5,5 +5,7 @@
     "securityUpdate": false,
     "updateType": "Bêta",
     "isNeeded": false,
-    "ilink": "http://jdocopilot.me/pps/21.jpg"
+    "ilink": "http://jdocopilot.me/pps/21.jpg",
+    "messageFromAlbatross": true,
+    "messageContent": "Salut !"
 }
