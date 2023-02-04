@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    background-color: black;
+    cursor: default;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+
+    /* center */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    border-color: #ffc8dd;
+    border-style: solid;
+    border-width: 1px;
+
+    
+
+}
+.box{
+    background-color: black;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 1em;
+}
+
+a{
+    color: #ffc8dd;
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;
+}
