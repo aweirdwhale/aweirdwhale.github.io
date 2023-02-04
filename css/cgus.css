@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    background-color: black;
+    cursor: default;
+}
+
+.main{
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+
+    left: 50%;
+    transform: translate(-100%, 0);
+
+    border-color: #ffc8dd;
+    border-style: solid;
+    border-width: 1px;
+}
+.box{
+    background-color: black;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 1em;
+}
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding: 1em;
+}
+
