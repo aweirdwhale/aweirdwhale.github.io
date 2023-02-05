@@ -1,0 +1,9 @@
+{
+  "short_name": "Albatross",
+  "name": "NSI cross-team website",
+  "icon": "./franck2.png",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
