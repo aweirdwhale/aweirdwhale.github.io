@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu+Mono&display=swap');
+
+:root{
+  --violet: #cdb4db;
+  --rose-pale: #ffc8dd;
+  --rose: #ffafcc;
+  --bleu-clair: #bde0fe;
+  --bleu: #a2d2ff;
+  --white: #ffffff;
+}
+
+*{
+    cursor: default;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.about-container {
+  text-align: center;
+}
+
+.about {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Hero{
+    flex: 2;
+    position: absolute;
+    right: 8em;
+    width: 700px;
+    text-align: left;
+}
+
+.heroImage{
+    flex: 1;
+    position: absolute;
+    left: 8em;
+}
+
+#heroImg{
+    width: 15em;
+    height: 15em;
+}
+
+
+#mainP{
+    font-size: 1em;
+    font-family: 'Ubuntu Mono', sans-serif;
+    color: var(--rose-pale);
+    text-align: left;
+}
+
+
+.controllers{
+    /* bottom right */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /* width and height */
+    width: 100px;
+    height: 100px;
+    /* color */
+    color: var(--rose-pale);
+}
+
+.controllers > .next {
+    cursor: pointer;
+}
+
+.controllers > .next:hover{
+    color: var(--white);
+}
+
+.controllers > .previous {
+    cursor: pointer;
+}
+
+.controllers > .previous:hover{
+    color: var(--white);
+}
+
+
+.buttons{
+    position: absolute;
+    top: 0;
+  }
+  .buttons > a{
+    padding: 20px;
+    color: var(--rose);
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+  }
+  a:hover{
+    color: #FFF;
+  }

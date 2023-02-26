@@ -1,0 +1,185 @@
+<!-- import '../css/about.css'
+import * as Ai from "react-icons/ai";
+import { useState } from 'react';
+
+const heroTexts = [
+    "Something about us...",   
+    "On est des élèves de spécialité nsi, on crée des projets parce qu'on aime vivre dangereusement (!!!!) et qu'on veut améliorer la vie des autres (quel altruisme !!!) En plus, ça rapporte des 20 facilement en nous faisant passer pour des génies. Notre dernier chef-d'œuvre c'est JDOcopilot, un petit bijou de technologie et d'optimisation. Ah, et Albatross parce qu'on est pas Baudelaire mais on compte avoir la même postérité !",
+    "Olivier, une baleine bizarre mais si sexy... C’est un peu à cause de moi si les projets ou le site sont pas beaux : je suis developpeur front-end.",
+    "Salut, moi c'est Cédric, alias Tidic. C'est moi le gars qui a toujours des galères avec son pc, qui ramène des erreurs ou les créer, venu de Mars ou de Micromégas. Je suis developpeur back-end à mi temps je crois.",
+    "BONJOUR je suis CLAIRE caractéristiques : canard saucisse \n(elle est spéciale)",
+    "Thomas.",
+]
+
+const images = [
+    "http://jdocopilot.me/pps/20.jpg",
+    "http://jdocopilot.me/pps/1.jpg",
+    "http://jdocopilot.me/pps/28.jpg",
+    "http://jdocopilot.me/pps/29.jpg",
+    "http://jdocopilot.me/pps/4.jpg",
+    "http://jdocopilot.me/pps/5.jpg",
+]
+
+
+const delay = ms => new Promise(res => setTimeout(res, ms));
+
+export default function About(){
+    const [count, setCount] = useState(0)
+
+    let idOf1 = null
+    let idOf2 = null
+    let idOf3 = null
+    let idOf4 = null
+    let idOf5 = null
+    let idOf6 = null
+
+    const changeText = () => {
+        if(count < heroTexts.length - 1){
+            setCount(count + 1)
+        }else{
+            setCount(0)
+        }
+    }
+    const changeTextDown = () => {
+        if(count > 0){
+            setCount(count - 1)
+        }else{
+            setCount(heroTexts.length - 1)
+        }
+    }
+
+    if(count === 0){
+        idOf1 = 'active';
+        idOf2 = 'down';
+        idOf3 = 'down';
+        idOf4 = 'down';
+        idOf5 = 'down';
+        idOf6 = 'down';
+    } else if(count === 1){
+        idOf1 = 'up1';
+        idOf2 = 'active';
+        idOf3 = 'down';
+        idOf4 = 'down';
+        idOf5 = 'down';
+        idOf6 = 'down';
+    } else if(count === 2){
+        idOf1 = 'up1';
+        idOf2 = 'up1';
+        idOf3 = 'active';
+        idOf4 = 'down';
+        idOf5 = 'down';
+        idOf6 = 'down';
+    } else if(count === 3){
+        idOf1 = 'up1';
+        idOf2 = 'up1';
+        idOf3 = 'up1';
+        idOf4 = 'active';
+        idOf5 = 'down';
+        idOf6 = 'down';
+    } else if(count === 4){
+        idOf1 = 'up1';
+        idOf2 = 'up1';
+        idOf3 = 'up1';
+        idOf4 = 'up1';
+        idOf5 = 'active';
+        idOf6 = 'down';
+    } else if(count === 5){
+        idOf1 = 'up1';
+        idOf2 = 'up1';
+        idOf3 = 'up1';
+        idOf4 = 'up1';
+        idOf5 = 'up1';
+        idOf6 = 'active';
+    }
+
+
+    return(
+        <div class="about-container">
+            <div className='progressbar'>
+                <div className='bubble' id={idOf1}></div>
+                <div className='bubble1' id={idOf2}></div>
+                <div className='bubble2' id={idOf3}></div>
+                <div className='bubble3' id={idOf4}></div>
+                <div className='bubble4' id={idOf5}></div>
+                <div className='bubble5' id={idOf6}></div>
+            </div>
+            <div className='about'>
+                <div className='about-buttons'>
+                    <a href='./' id='enabled'>Home</a>
+                    <a href='./work' id='enabled'>Work</a>
+                </div>
+                <div className='Hero'>
+                    {count === 0 ? <p className='pouet'>
+                        {heroTexts[count]}
+                    </p> : <p className='mainP'>
+                        {heroTexts[count]}
+                    </p>}
+                    
+                    
+                    {count === 0 ? <p></p> : <button onClick={() => changeTextDown()} >
+                        <Ai.AiFillCaretUp className='slideUp'/>
+                    </button>}
+                    
+                    {count === 5 ? <p></p> : <button onClick={() => changeText()} >
+                        <Ai.AiFillCaretDown className='slideDown'/>
+                    </button> }
+                    
+                    
+                    {count === 0 ? <a className='contactUs' href='./contact'>Nous contacter !</a> : <img className="img" src={images[count]} alt=""/>}
+                
+                
+                    
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+    )
+} -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albatross : About Us</title>
+    <meta name="description" content="Albatross, une équipe de NSI du lycée général et technologique de Châteaurenard !" />
+    <link rel="icon" href="../../assets/favicon.png" />
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+</head>
+<body>
+    <div class="about-container">
+        <div class="about">
+            <div class="heroImage">
+                <img id="heroImg" alt="jdocopilot"></img>
+            </div>
+            
+            <div class="Hero">
+                <span id="mainP">
+                </span>
+            </div>
+            <div class="controllers">
+                <div class="next">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <div class="previous">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <a href='../landing/landing.html' class='button'>Maison</a>
+                <a href='./work' class='button'>Projets</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="about.js"></script>
+</body>
+</html>
