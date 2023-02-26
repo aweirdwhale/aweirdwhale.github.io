@@ -1,0 +1,11 @@
+{
+    "isUpdateAvailable": false,
+    "slug": "b0.3.1",
+    "version": "Bêta - 0.3.1",
+    "securityUpdate": false,
+    "updateType": "Bêta",
+    "isNeeded": false,
+    "ilink": "http://jdocopilot.me/pps/21.jpg",
+    "messageFromAlbatross": true,
+    "messageContent": "Une nouvelle version approche !"
+}
