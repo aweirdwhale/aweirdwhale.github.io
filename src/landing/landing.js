@@ -7,6 +7,7 @@ const splashes = [
     "He had a vague sense that trees gave birth to dinosaurs",
     "HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
     '/25468254156486464deqsferhjkqgyukqeruirgeuiqofgc',
+    "coeur coeur Ada <3"
 ]
 
 let splash;
