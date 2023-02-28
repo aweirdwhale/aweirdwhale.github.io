@@ -1,12 +1,12 @@
-var heros = [ 
-    "Nous sommes des élèves de spécialité nsi, on crée des projets parce qu'on aime vivre dangereusement (!!!!) et qu'on veut améliorer la vie des autres (quel altruisme !!!) En plus, ça rapporte des 20 facilement en nous faisant passer pour des génies. Notre dernier chef-d'œuvre c'est JDOcopilot, un petit bijou de technologie et d'optimisation. Ah, et Albatross parce qu'on est pas Baudelaire mais on compte avoir la même postérité !",
-    "Olivier, une baleine bizarre mais si sexy... C’est un peu à cause de moi si les projets ou le site sont pas beaux : je suis developpeur front-end.",
-    "Salut, moi c'est Cédric, alias Tidic. C'est moi le gars qui a toujours des galères avec son pc, qui ramène des erreurs ou les créer, venu de Mars ou de Micromégas. Je suis developpeur back-end à mi temps je crois.",
-    "BONJOUR je suis CLAIRE caractéristiques : canard saucisse \n(elle est spéciale)",
-    "Thomas.",
-]
+var heros = [
+  "Nous sommes des élèves de spécialité <strong>NSI</strong>, on crée des projets parce qu'on aime vivre dangereusement (!!!!) et qu'on veut améliorer la vie des autres (quel altruisme !!!) En plus, ça rapporte des 20 facilement en nous faisant passer pour des génies. Notre dernier chef-d'œuvre c'est <strong>JDOcopilot</strong>, un petit bijou de technologie et d'optimisation. Ah, et <strong class='BLEU'>Albatross</strong> parce qu'on est pas Baudelaire mais on compte avoir la même postérité !",
+  "Olivier, une baleine bizarre mais si sexy... C’est un peu à cause de moi si les projets ou le site sont pas beaux : je suis developpeur front-end.",
+  "Salut, moi c'est Cédric, alias Tidic. C'est moi le gars qui a toujours des galères avec son pc, qui ramène des erreurs ou les créer, venu de Mars ou de Micromégas. Je suis developpeur back-end à mi temps je crois.",
+  "BONJOUR je suis CLAIRE caractéristiques : canard saucisse \n(elle est spéciale)",
+  "Thomas.",
+];
 var images = [
-    "../../assets/favicon.png",
+    "../../assets/faviconnotthebest.png",
     "http://jdocopilot.me/pps/28.jpg",
     "http://jdocopilot.me/pps/29.jpg",
     "http://jdocopilot.me/pps/4.jpg",

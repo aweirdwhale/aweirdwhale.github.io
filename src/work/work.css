@@ -23,18 +23,6 @@ body {
 
   }
   
-  #crosshair{
-    z-index: 259;
-    
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
   #image-track {
     display: flex;
     gap: 4vmin;
@@ -43,10 +31,14 @@ body {
     top: 50%;
     transform: translate(-50%, -50%); 
     user-select: none; /* -- Prevent image highlighting -- */
-    
-    pointer-events: none;
   }
   
+  #image-track > .a >.image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 100% center;
+  }
   #image-track > .image {
     width: 40vmin;
     height: 56vmin;

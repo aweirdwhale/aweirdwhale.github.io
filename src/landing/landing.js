@@ -3,11 +3,14 @@ const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ,?;.:/!@#$%^&*()_+<>&é~#'{([-|è`_ç
 const splashes = [
     "Alan Turing il est grave surcoté",
     "On est un peu mégalos mais ne vous inquiétez pas",
-    "Kaneki sait faire du bon café !",
+    "Kaneki sait faire un bon café !",
     "He had a vague sense that trees gave birth to dinosaurs",
     "HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-    '/25468254156486464deqsferhjkqgyukqeruirgeuiqofgc',
-    "coeur coeur Ada <3"
+    '?v=dQw4w9WgXcQ',
+    "coeur coeur Ada <3",
+    "Holy cow, man!",
+    "That's no moon, it's a space station!",
+    "10% bug free !"
 ]
 
 let splash;
