@@ -10,7 +10,7 @@ var images = [
     "http://jdocopilot.me/pps/28.jpg",
     "http://jdocopilot.me/pps/29.jpg",
     "http://jdocopilot.me/pps/4.jpg",
-    "http://jdocopilot.me/pps/5.jpg",
+    "http://jdocopilot.me/pps/22.jpg",
 ];
 
 // on affiche par défaut le premier item de la liste heros et images
