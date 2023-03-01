@@ -11,40 +11,74 @@
 }
 
 *{
-    cursor: default;
+    cursor: none;
 }
 
 body {
-    height: 100vh;
-    width: 100vw;
-    background-color: black;
-    margin: 0rem;
-    overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  height: 100vh;    
+  margin: 0px;  
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(10px, 4vw, 100px);
+}
 
-  }
+body:hover > #trailer {
+  opacity: 1;
+}
+
+#trailer {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 20px;
   
-  #image-track {
-    display: flex;
-    gap: 4vmin;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%); 
-    user-select: none; /* -- Prevent image highlighting -- */
-  }
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 10000;
   
-  #image-track > .a >.image {
-    width: 40vmin;
-    height: 56vmin;
-    object-fit: cover;
-    object-position: 100% center;
-  }
-  #image-track > .image {
-    width: 40vmin;
-    height: 56vmin;
-    object-fit: cover;
-    object-position: 100% center;
-  }
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 500ms ease;
+  
+  display: grid;
+  place-items: center;
+}
+
+#trailer:not([data-type=""]) > #trailer-icon {
+  opacity: 1;
+}
+
+#trailer-icon {
+  font-size: 6px;
+  line-height: 4px;
+  
+  opacity: 0;
+  transition: opacity 400ms ease;
+}
+
+.interactable {
+  aspect-ratio: 1 / 1.5;
+  width: clamp(120px, 40vmin, 600px);
+  height: clamp(120px, 40vmin, 600px);
+  background-position: center 50%;
+  background-size: 100%; 
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  
+  transition: background-size 400ms ease, opacity 400ms ease;
+
+  border: solid 2px var(--bleu);
+}
+
+.interactable:hover {
+  background-size: 105%;
+  opacity: 0.9;
+}
+
 
   .buttons{
     position: absolute;

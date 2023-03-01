@@ -51,3 +51,17 @@ function previous() {
 //on regarde si les bouttons next ou previous sont cliqués et on appelle la fonction correspondante
 document.getElementsByClassName('next')[0].addEventListener('click', next);
 document.getElementsByClassName('previous')[0].addEventListener("click", previous);
+
+
+
+document.addEventListener('keydown', (event) => {
+    var name = event.key;
+    var code = event.code;
+
+    if(code == 'ArrowRight'){
+        next()
+    } else if(code == 'ArrowLeft'){
+        previous()
+    }
+}, false);
+  

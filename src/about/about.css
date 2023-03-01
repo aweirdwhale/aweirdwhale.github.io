@@ -10,7 +10,7 @@
 }
 
 *{
-    cursor: default;
+    cursor: none;
 }
 
 body {
@@ -80,17 +80,11 @@ body {
     color: var(--bleu);
 }
 
-.controllers > .next {
-    cursor: pointer;
-}
 
 .controllers > .next:hover{
     color: var(--white);
 }
 
-.controllers > .previous {
-    cursor: pointer;
-}
 
 .controllers > .previous:hover{
     color: var(--white);
@@ -111,58 +105,3 @@ body {
     color: #FFF;
   }
 
-@media (max-width: 485px) {
-  #mainP {
-    font-size: 1.5em;
-    font-family: 'Ubuntu Mono', sans-serif;
-    color: var(--rose-pale);
-    text-align: left;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -60%);
-}
-.heroImage {
-  flex: 1;
-  position: absolute;
-  left: 8em;
-  display: none;
-}
-.controllers {
-  /* bottom right */
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  /* width and height */
-  width: 100%;
-  height: 100px;
-  /* color */
-  color: var(--bleu);
-  /*! position: absolute; */
-  left: 50%;
-  transform: translateX(-50%);
-  display: grid;
-  justify-content: space-between;
-}.controllers > .next {
-  cursor: pointer;
-  right: 10vmin;
-  position: absolute;
-}.controllers > .previous {
-  cursor: pointer;
-  position: absolute;
-  left: 10vmin;
-}.Hero {
-  /*! flex: 2; */
-  position: absolute;
-  /*! right: 8em; */
-  width: 700px;
-  text-align: left;
-  left: 50%;
-  transform: translateX(-50%);
-}
-}
-
-@media (max-width: 537px){
-  .Hero{
-    width: 932px;
-  }
-}

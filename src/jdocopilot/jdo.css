@@ -10,7 +10,7 @@
 }
 
 *{
-    cursor: default;
+    cursor: none;
     text-decoration: none;
     font-family: 'Space Mono', monospace;
 }
@@ -89,7 +89,7 @@ body{
     border-radius: 6px;
     bottom: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-    cursor: pointer;  
+    cursor: none;  
     display: inline-flex;
     gap: 5px;
     right: 60px;
@@ -116,7 +116,7 @@ body{
     font-weight: 400;
     top: 50%;
     transform: translateY(-10%);
-    cursor: pointer;
+    cursor: none;
   }
 
   .meta-link > .jdo-icon {
@@ -128,14 +128,14 @@ body{
     font-weight: 400;
     top: 50%;
     transform: translateY(-10%);
-    cursor: pointer;
+    cursor: none;
   }
   #yt-link > .jdo-icon {
     color: var(--violet);
   }
 
   .jdo-home{
-    cursor: pointer;
+    cursor: none;
     background-color: transparent;
     color: white;
     border: none;
