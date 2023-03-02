@@ -105,3 +105,62 @@ body {
     color: #FFF;
   }
 
+
+
+  @media screen and (max-width: 620px) {
+    
+/* work.css | http://127.0.0.1:5500/src/work/work.css */
+
+
+.buttons {
+  display: inline-block;
+  width: 100%;
+  top: 2%;
+}
+
+
+.Hero {
+  /* right: 8em; */
+  /* width: 700px; */
+  left: 51%;
+  width: 90%;
+  transform: translateX(-50%);
+  top: 445px;
+}
+
+.controllers {
+  /* bottom: 0; */
+  /* width: 100px; */
+  bottom: 4%;
+  width: 100%;
+}
+
+.heroImage {
+  /* left: 8em; */
+  /* display: none; */
+  bottom: 56%;
+}
+
+.about-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Element | http://127.0.0.1:5500/src/about/about.html */
+
+.next {
+  position: relative;
+  left: 85%;
+  top: 23.5%;
+  width: 50px;
+}
+
+/* Element | http://127.0.0.1:5500/src/about/about.html */
+
+.previous {
+  position: relative;
+  right: 85;
+  width: 50px;
+}
+
+  }

@@ -23,6 +23,8 @@ body {
   align-items: center;
   justify-content: center;
   gap: clamp(10px, 4vw, 100px);
+
+  flex-direction: row;
 }
 
 body:hover > #trailer {
@@ -99,3 +101,24 @@ body:hover > #trailer {
     color: #FFF;
   }
 
+@media screen and (max-width: 510px){
+
+/* work.css | http://127.0.0.1:5500/src/work/work.css */
+
+* {
+  /* cursor: none; */
+  cursor: pointer;
+}
+
+body {
+  flex-direction: column;
+}
+
+.interactable {
+  /* width: clamp(120px, 40vmin, 600px); */
+  /* height: clamp(120px, 40vmin, 600px); */
+  width: clamp(300px, 80vmin, 700px);
+  height: clamp(300px, 80vmin, 700px);
+}
+
+}

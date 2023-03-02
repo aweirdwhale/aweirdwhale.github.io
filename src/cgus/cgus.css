@@ -6,9 +6,13 @@
     font-family: 'Space Mono', monospace;
 }
 
+
+:root{
+    --blue: #bde0fe;
+}
 .main{
-    width: 50%;
-    margin: 0 auto;
+    width: 100%;
+    margin-left: 50%;
     position: relative;
 
     left: 50%;
@@ -17,6 +21,10 @@
     border-color: #ffc8dd;
     border-style: solid;
     border-width: 1px;
+
+    overflow: hidden;
+    margin-left: 50%;
+    margin-bottom: 0;
 }
 .box{
     background-color: black;
@@ -27,11 +35,8 @@
     padding: 1em;
 }
 
-h1{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 2em;
-    text-align: center;
-    padding: 1em;
+h3{
+    color: var(--blue);
 }
 
 .jdo-home{
