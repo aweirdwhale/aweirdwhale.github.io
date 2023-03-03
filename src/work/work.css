@@ -82,7 +82,7 @@ body:hover > #trailer {
 }
 
 
-  .buttons{
+  .work-buttons{
     position: absolute;
     top: 0;
 
@@ -90,8 +90,9 @@ body:hover > #trailer {
     transform: translateX(-50%);
 
     font-size: calc(10px + 2vmin);
+    /* width: 100%; */
   }
-  .buttons > a{
+  .work-buttons > a{
     padding: 20px;
     color: var(--rose);
     text-decoration: none;
@@ -102,6 +103,17 @@ body:hover > #trailer {
   }
 
 @media screen and (max-width: 510px){
+
+  .work-buttons {
+    position: absolute;
+    top: 5px;
+
+    left: 76%;
+    transform: translateX(-50%);
+
+    font-size: calc(10px + 2vmin);
+    width: 100%;
+  }
 
 /* work.css | http://127.0.0.1:5500/src/work/work.css */
 
@@ -121,4 +133,13 @@ body {
   height: clamp(300px, 80vmin, 700px);
 }
 
+}
+
+@media screen and (max-width: 1200px) {
+  #trailer{
+    display: none;
+  }
+  *{
+    cursor: default;
+  }
 }

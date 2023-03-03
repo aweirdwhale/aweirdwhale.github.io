@@ -129,3 +129,27 @@ a:hover{
     transform: translate(0,-200%) scale(0.9);
   }
 }
+
+
+@media screen and (max-width: 935px) {
+  
+/* landing.css | http://127.0.0.1:5501/src/landing/landing.css */
+
+#splash {
+  position: relative;
+  top: 30px;
+  text-align: center;
+}
+
+}
+
+@media screen and (max-width: 414px) {
+  
+
+.buttons {
+  /* top: 0; */
+  top: -10px;
+  display: inherit;
+}
+
+}

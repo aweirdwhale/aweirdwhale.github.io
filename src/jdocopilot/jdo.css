@@ -235,3 +235,25 @@ body{
 }
 
   }
+
+
+/* jdo.css | http://127.0.0.1:5501/src/jdocopilot/jdo.css */
+
+@media screen and (max-width: 388px) {
+  .jdo-title > h1 {
+    /* top: 46px; */
+    top: 16px;
+  }
+  .jdo-content > .jdo-img {
+    /* top: 30%; */
+    /* width: 40%; */
+    top: 26%;
+    width: 29%;
+  }
+  .jdo-content > .p {
+    /* top: 65%; */
+    /* font-size: 1.3em; */
+    top: 55%;
+    font-size: 1.1em;
+  }
+}

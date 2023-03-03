@@ -106,17 +106,100 @@ body {
   }
 
 
+@media screen and (max-width: 500px) {
+  
+  .buttons {
+    position: absolute;
+      top: 0;
+  
+      left: 50%;
+      transform: translateX(-50%);
+  
+      font-size: calc(10px + 2vmin);
+  
+      width: 100%;
+  }
+  
+  
+  
+  .Hero {
+    /* right: 8em; */
+    /* width: 700px; */
+    left: 51%;
+    width: 90%;
+    transform: translateX(-50%);
+    top: 445px;
+  }
+  
+  /* about.css | http://127.0.0.1:5501/src/about/about.css?_cacheOverride=1677800325063 */
+  
+  #heroImg {
+    /* position: absolute; */
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+  }
+  
+  
+  .controllers {
+    /* bottom: 0; */
+    /* width: 100px; */
+    bottom: 4%;
+    width: 100%;
+  }
+  
+  .heroImage {
+    /* left: 8em; */
+    /* display: none; */
+    bottom: 56%;
+    left: 17%;
+  }
+  
+  .about-container {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  /* Element | http://127.0.0.1:5500/src/about/about.html */
+  
+  .next {
+    position: relative;
+    left: 85%;
+    top: 23.5%;
+    width: 50px;
+  }
+  
+  /* Element | http://127.0.0.1:5500/src/about/about.html */
+  
+  .previous {
+    position: relative;
+    right: 85;
+    width: 50px;
+  }
+  
 
-  @media screen and (max-width: 620px) {
+}
+  
+  @media screen and (min-width: 500px) and (max-width: 620px) {
     
 /* work.css | http://127.0.0.1:5500/src/work/work.css */
 
 
+
+/* work.css | http://127.0.0.1:5500/src/work/work.css */
+
 .buttons {
-  display: inline-block;
-  width: 100%;
-  top: 2%;
+  position: absolute;
+    top: 0;
+
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-size: calc(10px + 2vmin);
+
+    width: 100%;
 }
+
 
 
 .Hero {
@@ -127,6 +210,16 @@ body {
   transform: translateX(-50%);
   top: 445px;
 }
+
+/* about.css | http://127.0.0.1:5501/src/about/about.css?_cacheOverride=1677800325063 */
+
+#heroImg {
+  /* position: absolute; */
+  left: 60%;
+  position: relative;
+  transform: translateX(-50%);
+}
+
 
 .controllers {
   /* bottom: 0; */
@@ -139,6 +232,7 @@ body {
   /* left: 8em; */
   /* display: none; */
   bottom: 56%;
+  left: 17%;
 }
 
 .about-container {
@@ -161,6 +255,51 @@ body {
   position: relative;
   right: 85;
   width: 50px;
+}
+
+  }
+
+@media screen and (min-width: 620px) and (max-width: 958px) {
+
+/* about.css | http://127.0.0.1:5500/src/about/about.css */
+
+.Hero {
+  /* right: 8em; */
+  /* width: 700px; */
+  right: 48%;
+top: 55%;
+width: 91%;
+transform: translateX(50%);
+}
+
+
+
+
+.heroImage {
+  /* left: 8em; */
+  left: 50%;
+  top: 7.2%;
+  transform: translateX(-50%);
+}
+
+}
+
+  
+@media screen and (min-width: 958px) and (max-width: 1504px){
+
+
+/* about.css | http://127.0.0.1:5500/src/about/about.css */
+
+.Hero {
+  /* right: 8em; */
+  /* width: 700px; */
+  right: .8em;
+  width: 434px;
+}
+
+.heroImage {
+  /* left: 8em; */
+  left: 2em;
 }
 
   }
