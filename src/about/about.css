@@ -91,103 +91,6 @@ body {
 }
 
 
-.buttons{
-    position: absolute;
-    top: 0;
-  }
-  .buttons > a{
-    padding: 20px;
-    color: var(--rose);
-    text-decoration: none;
-    font-family: 'Space Mono', monospace;
-  }
-  a:hover{
-    color: #FFF;
-  }
-
-
-@media screen and (max-width: 500px) {
-  
-  .buttons {
-    position: absolute;
-      top: 0;
-  
-      left: 50%;
-      transform: translateX(-50%);
-  
-      font-size: calc(10px + 2vmin);
-  
-      width: 100%;
-  }
-  
-  
-  
-  .Hero {
-    /* right: 8em; */
-    /* width: 700px; */
-    left: 51%;
-    width: 90%;
-    transform: translateX(-50%);
-    top: 445px;
-  }
-  
-  /* about.css | http://127.0.0.1:5501/src/about/about.css?_cacheOverride=1677800325063 */
-  
-  #heroImg {
-    /* position: absolute; */
-    left: 50%;
-    position: relative;
-    transform: translateX(-50%);
-  }
-  
-  
-  .controllers {
-    /* bottom: 0; */
-    /* width: 100px; */
-    bottom: 4%;
-    width: 100%;
-  }
-  
-  .heroImage {
-    /* left: 8em; */
-    /* display: none; */
-    bottom: 56%;
-    left: 17%;
-  }
-  
-  .about-container {
-    overflow: hidden;
-    width: 100%;
-  }
-  
-  /* Element | http://127.0.0.1:5500/src/about/about.html */
-  
-  .next {
-    position: relative;
-    left: 85%;
-    top: 23.5%;
-    width: 50px;
-  }
-  
-  /* Element | http://127.0.0.1:5500/src/about/about.html */
-  
-  .previous {
-    position: relative;
-    right: 85;
-    width: 50px;
-  }
-  
-
-}
-  
-  @media screen and (min-width: 500px) and (max-width: 620px) {
-    
-/* work.css | http://127.0.0.1:5500/src/work/work.css */
-
-
-
-/* work.css | http://127.0.0.1:5500/src/work/work.css */
-
 .buttons {
   position: absolute;
     top: 0;
@@ -199,107 +102,202 @@ body {
 
     width: 100%;
 }
+  .buttons > a{
+    padding: 20px;
+    color: var(--rose);
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+  }
+  a:hover{
+    color: #FFF;
+  }
 
 
 
-.Hero {
-  /* right: 8em; */
-  /* width: 700px; */
-  left: 51%;
-  width: 90%;
-  transform: translateX(-50%);
-  top: 445px;
-}
 
-/* about.css | http://127.0.0.1:5501/src/about/about.css?_cacheOverride=1677800325063 */
+  @media screen and (max-width: 620px) {
+    .heroImage {
+      /* left: 8em; */
+      /* display: none; */
+      bottom: 56%;
+      
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
 
-#heroImg {
-  /* position: absolute; */
-  left: 60%;
-  position: relative;
-  transform: translateX(-50%);
-}
+    .Hero {
+      /* right: 8em; */
+      /* width: 700px; */
+      left: 51%;
+      width: 90%;
+      transform: translateX(-50%);
+      top: 445px;
+      text-align: center;
+    }
 
+    .controllers {
+      /* bottom: 0; */
+      /* width: 100px; */
+      bottom: 4%;
+      width: 100%;
+    }
 
-.controllers {
-  /* bottom: 0; */
-  /* width: 100px; */
-  bottom: 4%;
-  width: 100%;
-}
+    .next {
+      position: relative;
+      left: 85%;
+      top: 23.5%;
+      width: 50px;
+    }
+    
+    /* Element | http://127.0.0.1:5500/src/about/about.html */
+    
+    .previous {
+      position: relative;
+      right: 85;
+      width: 50px;
+    }
+
+  }
+
+  @media screen and (min-width: 620px) and (max-width: 900px) {
+    
+/* about.css | https://5555-aweirdwhale-aweirdwhale-9tzr9pucikj.ws-eu89.gitpod.io/src/about/about.css?_cacheOverride=1678048452469 */
 
 .heroImage {
-  /* left: 8em; */
-  /* display: none; */
-  bottom: 56%;
-  left: 17%;
+  left: 10%;
 }
 
-.about-container {
-  overflow: hidden;
-  width: 100%;
+.Hero {
+  right: 1em;
+  width: calc(10em + 10vmin);
 }
 
-/* Element | http://127.0.0.1:5500/src/about/about.html */
-
-.next {
-  position: relative;
-  left: 85%;
-  top: 23.5%;
-  width: 50px;
-}
-
-/* Element | http://127.0.0.1:5500/src/about/about.html */
-
-.previous {
-  position: relative;
-  right: 85;
-  width: 50px;
+#heroImg {
+  width: 10em;
+  height: 10em;
 }
 
   }
 
-@media screen and (min-width: 620px) and (max-width: 958px) {
 
-/* about.css | http://127.0.0.1:5500/src/about/about.css */
+  @media screen and (min-width: 900px) and (max-width: 1111px) {
+    
+/* about.css | https://5555-aweirdwhale-aweirdwhale-9tzr9pucikj.ws-eu89.gitpod.io/src/about/about.css?_cacheOverride=1678048452469 */
+
+.heroImage {
+  /* left: 8em; */
+  left: 10%;
+}
 
 .Hero {
   /* right: 8em; */
   /* width: 700px; */
-  right: 48%;
-top: 55%;
-width: 91%;
-transform: translateX(50%);
+  right: 1em;
+  width: calc(10em + 10vmin);
 }
 
-
-
-
-.heroImage {
-  /* left: 8em; */
-  left: 50%;
-  top: 7.2%;
-  transform: translateX(-50%);
+#heroImg {
+  /* width: 15em; */
+  /* height: 15em; */
+  width: 10em;
 }
 
+/* about.css | https://5555-aweirdwhale-aweirdwhale-9tzr9pucikj.ws-eu89.gitpod.io/src/about/about.css?_cacheOverride=1678049195526 */
+
+@media screen and (min-width: 620px) and (max-width: 900px) {
+  #heroImg {
+    height: 10em;
+  }
 }
 
-  
-@media screen and (min-width: 958px) and (max-width: 1504px){
-
-
-/* about.css | http://127.0.0.1:5500/src/about/about.css */
+/* about.css | https://5555-aweirdwhale-aweirdwhale-9tzr9pucikj.ws-eu89.gitpod.io/src/about/about.css?_cacheOverride=1678049279928 */
 
 .Hero {
   /* right: 8em; */
   /* width: 700px; */
-  right: .8em;
-  width: 434px;
+  right: 4%;
+  width: 449px;
 }
 
 .heroImage {
   /* left: 8em; */
-  left: 2em;
+  left: 3%;
+}
+
+#heroImg {
+  /* width: 15em; */
+  /* height: 15em; */
+  width: 13em;
+  height: 13em;
+}
+
+  }
+
+
+  @media screen and (min-width: 1111px) and (max-width: 1574px) {
+    
+/* about.css | https://5555-aweirdwhale-aweirdwhale-9tzr9pucikj.ws-eu89.gitpod.io/src/about/about.css?_cacheOverride=1678048452469 */
+
+.heroImage {
+  /* left: 8em; */
+  left: 10%;
+}
+
+.Hero {
+  /* right: 8em; */
+  /* width: 700px; */
+  right: 1em;
+  width: calc(10em + 10vmin);
+}
+
+#heroImg {
+  /* width: 15em; */
+  /* height: 15em; */
+  width: 10em;
+}
+
+/* about.css | https://5555-aweirdwhale-aweirdwhale-9tzr9pucikj.ws-eu89.gitpod.io/src/about/about.css?_cacheOverride=1678049195526 */
+
+@media screen and (min-width: 620px) and (max-width: 900px) {
+  #heroImg {
+    height: 10em;
+  }
+}
+
+/* about.css | https://5555-aweirdwhale-aweirdwhale-9tzr9pucikj.ws-eu89.gitpod.io/src/about/about.css?_cacheOverride=1678049279928 */
+
+.Hero {
+  /* right: 8em; */
+  /* width: 700px; */
+  right: 4%;
+  width: 449px;
+}
+
+.heroImage {
+  /* left: 8em; */
+  left: 3%;
+}
+
+#heroImg {
+  /* width: 15em; */
+  /* height: 15em; */
+  width: 13em;
+  height: 13em;
+}
+
+/* about.css | https://5555-aweirdwhale-aweirdwhale-9tzr9pucikj.ws-eu89.gitpod.io/src/about/about.css?_cacheOverride=1678049506932 */
+
+.Hero {
+  /* right: 8em; */
+  /* width: 700px; */
+  right: 1em;
+  width: 575px;
+}
+
+.heroImage {
+  /* left: 8em; */
+  left: 6%;
 }
 
   }

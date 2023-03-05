@@ -48,13 +48,22 @@ body {
   -webkit-animation: breathing 5s ease-out infinite normal;
   animation: breathing 5s ease-out infinite normal;
 
+  text-align: center;
   
 }
 
-.buttons{
+.buttons {
   position: absolute;
-  top: 0;
+  
+
+  text-align: center;
+
+  font-size: calc(10px + 2vmin);
+  display: inline-block;
+  width: 100%;
+  top: 1%;
 }
+
 .buttons > a{
   padding: 20px;
   color: var(--rose);
@@ -131,25 +140,7 @@ a:hover{
 }
 
 
-@media screen and (max-width: 935px) {
-  
-/* landing.css | http://127.0.0.1:5501/src/landing/landing.css */
 
-#splash {
-  position: relative;
-  top: 30px;
-  text-align: center;
-}
 
-}
 
-@media screen and (max-width: 414px) {
-  
 
-.buttons {
-  /* top: 0; */
-  top: -10px;
-  display: inherit;
-}
-
-}
