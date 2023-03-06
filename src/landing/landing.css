@@ -36,7 +36,7 @@ body {
   font-family: 'Ubuntu Mono', monospace;
   color: var(--rose-pale);
   letter-spacing: 5px;
-
+  text-align: center;
 }
 
 #splash{
@@ -50,7 +50,10 @@ body {
 
   text-align: center;
   
+  top: 70px;
+  position: relative;
 }
+
 
 .buttons {
   position: absolute;
@@ -138,9 +141,4 @@ a:hover{
     transform: translate(0,-200%) scale(0.9);
   }
 }
-
-
-
-
-
 
