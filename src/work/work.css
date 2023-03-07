@@ -62,6 +62,18 @@ body:hover > #trailer {
   transition: opacity 400ms ease;
 }
 
+.prjs {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(10px, 4vw, 100px);
+ }
+
+ 
 .interactable {
   aspect-ratio: 1 / 1.5;
   width: clamp(120px, 40vmin, 600px);
@@ -86,8 +98,9 @@ body:hover > #trailer {
     position: absolute;
     top: 0;
 
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
+    text-align: center;
+    width: 100%;
 
     font-size: calc(10px + 2vmin);
     /* width: 100%; */
@@ -102,29 +115,36 @@ body:hover > #trailer {
     color: #FFF;
   }
 
-@media screen and (max-width: 510px){
-
-  .work-buttons {
+@media screen and (max-width: 520px){
+  .prjs {
+    height: 110%;
+    width: 100%;
+    background-color: black;
     position: absolute;
-    top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    padding-top: 8em;
+   }
 
-    left: 76%;
+   .work-buttons {
+    position: absolute;
+    /*! top: 5px; */
+
+    /*! left: 76%; */
     transform: translateX(-50%);
 
     font-size: calc(10px + 2vmin);
     width: 100%;
+    text-align: center;
+    position: fixed;
+    z-index: 100;
+    background-color: #0000000f;
+    backdrop-filter: blur(5px);
   }
-
-/* work.css | http://127.0.0.1:5500/src/work/work.css */
-
-* {
-  /* cursor: none; */
-  cursor: pointer;
-}
-
-body {
-  flex-direction: column;
-}
+   
 
 .interactable {
   /* width: clamp(120px, 40vmin, 600px); */
@@ -135,11 +155,168 @@ body {
 
 }
 
-@media screen and (max-width: 1200px) {
-  #trailer{
-    display: none;
+@media screen and (min-width: 520px) and (max-width: 616px){
+  
+  .prjs {
+    height: 110%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    padding-top: 18em;
+   }
+
+   .work-buttons {
+    position: absolute;
+
+    font-size: calc(10px + 2vmin);
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    background-color: #0000000f;
+    backdrop-filter: blur(5px);
   }
-  *{
-    cursor: default;
+
+   .interactable {
+    /* width: clamp(120px, 40vmin, 600px); */
+    /* height: clamp(120px, 40vmin, 600px); */
+    width: clamp(300px, 80vmin, 700px);
+    height: clamp(300px, 80vmin, 700px);
+  }
+}
+
+@media screen and (min-width: 616px) and (max-width: 680px) {
+  .prjs {
+    height: 110%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    padding-top: 25em;
+   }
+
+   .work-buttons {
+    position: absolute;
+
+    font-size: calc(10px + 2vmin);
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    background-color: #0000000f;
+    backdrop-filter: blur(5px);
+  }
+
+   .interactable {
+    /* width: clamp(120px, 40vmin, 600px); */
+    /* height: clamp(120px, 40vmin, 600px); */
+    width: clamp(300px, 80vmin, 700px);
+    height: clamp(300px, 80vmin, 700px);
+  }
+}
+
+@media screen and (min-width: 680px) and (max-width: 720px) {
+  .prjs {
+    height: 110%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    padding-top: 30em;
+   }
+
+   .work-buttons {
+    position: absolute;
+
+    font-size: calc(10px + 2vmin);
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    background-color: #0000000f;
+    backdrop-filter: blur(5px);
+  }
+
+   .interactable {
+    /* width: clamp(120px, 40vmin, 600px); */
+    /* height: clamp(120px, 40vmin, 600px); */
+    width: clamp(300px, 80vmin, 700px);
+    height: clamp(300px, 80vmin, 700px);
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 768px) {
+  .prjs {
+    height: 110%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    padding-top: 35em;
+   }
+
+   .work-buttons {
+    position: absolute;
+
+    font-size: calc(10px + 2vmin);
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    background-color: #0000000f;
+    backdrop-filter: blur(5px);
+  }
+
+   .interactable {
+    /* width: clamp(120px, 40vmin, 600px); */
+    /* height: clamp(120px, 40vmin, 600px); */
+    width: clamp(300px, 80vmin, 700px);
+    height: clamp(300px, 80vmin, 700px);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
+  .prjs {
+    height: 110%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    padding-top: 40em;
+   }
+
+   .work-buttons {
+    position: absolute;
+
+    font-size: calc(10px + 2vmin);
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    background-color: #0000000f;
+    backdrop-filter: blur(5px);
+  }
+
+   .interactable {
+    /* width: clamp(120px, 40vmin, 600px); */
+    /* height: clamp(120px, 40vmin, 600px); */
+    width: clamp(300px, 80vmin, 700px);
+    height: clamp(300px, 80vmin, 700px);
   }
 }

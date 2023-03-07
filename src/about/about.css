@@ -36,6 +36,9 @@ body {
   font-size: calc(10px + 2vmin);
   color: white; */
   text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .Hero{
@@ -44,6 +47,8 @@ body {
     right: 8em;
     width: 700px;
     text-align: left;
+    font-size: calc(10px + 2vmin);
+
 }
 
 .heroImage{
@@ -53,8 +58,8 @@ body {
 }
 
 #heroImg{
-    width: 15em;
-    height: 15em;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -81,7 +86,12 @@ body {
     color: var(--bleu);
 }
 
-
+.controllers > .next{
+  font-size: 1.5em;
+}
+.controllers > .previous{
+  font-size: 1.5em;
+}
 .controllers > .next:hover{
     color: var(--white);
 }

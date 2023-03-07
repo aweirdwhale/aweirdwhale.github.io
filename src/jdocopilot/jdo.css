@@ -190,7 +190,7 @@ body{
   }
 
 
-  @media screen and (max-width: 412px) {
+  @media screen and (max-width: 806px) {
 
 /* jdo.css | http://127.0.0.1:5500/src/jdocopilot/jdo.css */
 
@@ -231,7 +231,7 @@ body{
   /* width: 20%; */
   top: 30%;
   left: 50%;
-  width: 40%;
+  max-width: 40%;
 }
 
   }
