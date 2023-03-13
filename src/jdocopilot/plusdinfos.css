@@ -10,16 +10,107 @@
 }
 
 *{
-    cursor: none;
+    cursor: default;
     text-decoration: none;
     font-family: 'Space Mono', monospace;
 }
 
 body{
     background-color: #000;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    position: absolute;
+
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100em;
 }
 
 #jdocopilot{
     text-align: center;
     color: var(--bleu);
 }
+
+strong{
+    color: var(--bleu-clair);
+}
+
+h2{
+    color: var(--bleu-clair)
+}
+
+a{
+    text-decoration: none;
+    color: var(--violet);
+    cursor: pointer;
+}
+
+a:hover{
+    color: white;
+}
+
+.tm{
+    position: relative;
+    left: 50%;
+
+    transform: translateX(-7%);
+    text-align:left;
+}
+
+.jdo-home{
+    cursor: none;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 17px;
+    position: absolute;
+    z-index: 300;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    text-decoration: none;
+
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+
+  .jdo-home::before{
+    content: "";
+    border: 3px solid white;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+
+  .jdo-home:hover::before{
+    left: 25px;
+    top: 15px;
+    width: 85%;
+    padding: 10px;
+    background-color: white;
+    z-index: -1;
+  }
+
+  .jdo-home:hover{
+    color: #282828
+  }
