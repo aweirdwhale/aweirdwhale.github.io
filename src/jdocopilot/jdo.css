@@ -75,11 +75,14 @@ body{
     font-size: .5em;
 }
 
-#source-link {
+#ps-link {
     bottom: 60px;
 }
   
   
+#info-link {
+  bottom: 110px;
+}
   
   .meta-link {
     align-items: center;
@@ -111,7 +114,7 @@ body{
     color: #000;
   }
   
-  #source-link > span {
+  #ps-link > span {
     color: #000;
     font-weight: 400;
     top: 50%;
@@ -123,14 +126,14 @@ body{
     color: var(--violet);
   }
 
-  #yt-link > span{
+  #cgus-link > span{
     color: #000;
     font-weight: 400;
     top: 50%;
     transform: translateY(-10%);
     cursor: none;
   }
-  #yt-link > .jdo-icon {
+  #cgus-link > .jdo-icon {
     color: var(--violet);
   }
 
@@ -210,7 +213,7 @@ body{
   right: 33px;
 }
 
-#source-link {
+#ps-link {
   /* bottom: 60px; */
   bottom: 10px;
   left: 19px;

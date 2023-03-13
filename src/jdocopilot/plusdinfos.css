@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu+Mono&display=swap');
+
+:root{
+  --violet: #cdb4db;
+  --rose-pale: #ffc8dd;
+  --rose: #ffafcc;
+  --bleu-clair: #bde0fe;
+  --bleu: #a2d2ff;
+  --white: #ffffff;
+}
+
+*{
+    cursor: none;
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+}
+
+body{
+    background-color: #000;
+}
+
+#jdocopilot{
+    text-align: center;
+    color: var(--bleu);
+}
