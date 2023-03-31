@@ -1,11 +1,11 @@
 {
-    "isUpdateAvailable": false,
-    "slug": "b0.3.1",
-    "version": "Bêta - 0.3.1",
+    "isUpdateAvailable": true,
+    "slug": "b2.0.0",
+    "version": "Bêta - 2.0.0",
     "securityUpdate": false,
     "updateType": "Bêta",
-    "isNeeded": false,
-    "ilink": "http://jdocopilot.me/pps/21.jpg",
+    "isNeeded": true,
+    "ilink": "https://play.google.com/store/apps/details?id=me.albatross.jdocopilot&hl=fr",
     "messageFromAlbatross": true,
-    "messageContent": "Une nouvelle version approche !"
+    "messageContent": "Nouvelle version disponible dès maintenant sur le play store !"
 }
