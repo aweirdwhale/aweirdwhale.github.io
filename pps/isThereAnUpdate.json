@@ -7,5 +7,6 @@
     "isNeeded": true,
     "ilink": "https://play.google.com/store/apps/details?id=me.albatross.jdocopilot&hl=fr",
     "messageFromAlbatross": true,
-    "messageContent": "Nouvelle version disponible dès maintenant sur le play store !"
+    "messageContent": "Nouvelle version disponible dès maintenant sur le play store !",
+    "id":"200"
 }
