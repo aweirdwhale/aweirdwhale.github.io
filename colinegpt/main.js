@@ -3,7 +3,7 @@ let button = document.querySelector('button');
 let ansContainer = document.querySelector('#ans-container');
 
 let motpoème = "Sous l'éclat des cieux, le grand jeté s'éveille, corps gracieux, légèreté qui m'émerveille. Ces ailes si soyeuses battent en douce cadence, s'envolent vers l'infini en achevant son ascendance. Ce mouvement contrôlé dévoile sa magie insoupçonnée. Comme le soleil aux aurores ou une étoile filante. La souplesse se tisse dans chaque instants, Une chorégraphie, un ballet resplendissant. Sur la scène de l'aube, le rêve prend son essor, l'âme du danseur s'élève, libérée de son corps. Les muscles se contractent et se déploient, ressentent tout comme la première fois. Le grand Jeté, éternel symbole de liberté, s'achève en équilibre entre peur et fierté. Chaque saut présente un voyage, une prière, une ode à la beauté, à la danse, à l'éphémère.";
-let motPeinture = "peinture";
+const motPeinture = "./paint.jpeg";
 const motSong = "./video.mp4";
 
 let header = document.querySelector('header');
@@ -14,7 +14,7 @@ let username = "ColineGPT";
 let answers = [
     "Il semble que vous ayez mentionné le grand jeté, comment voulez-vous que je vous montre ce que c'est ?",
     `Voici un poème à propos du grand jeté :\n${motpoème}`,
-    `Voici une peinture du grand jeté : ${motPeinture}`,
+    `Voici un dessin du grand jeté : `,
     `Voici une musique faisant référence au grand jeté :`,
     "Bonjour, comment puis-je vous aider ?",
     "Je suis ravi de vous aider ! Si vous avez d'autres questions ou si vous avez besoin d'aide pour autre chose, n'hésitez pas à demander !",
@@ -74,7 +74,7 @@ button.addEventListener('click', (event) => {
         answerIndex = 1;
     } else if (text.includes("grand jete") && (text.includes("peinture") || text.includes("tableau") || text.includes("image"))) {
         answerIndex = 2;
-    } else if (text.includes("peinture") || text.includes("tableau") || text.includes("image")) {
+    } else if (text.includes("dessin") || text.includes("tableau") || text.includes("image")) {
         answerIndex = 2;
     } else if (text.includes("grand jete") && (text.includes("musique") || text.includes("chanson") || text.includes("song"))) {
         answerIndex = 3;
@@ -115,6 +115,14 @@ button.addEventListener('click', (event) => {
                 videoElement.style.height = '50%';
                 ansContainer.appendChild(videoElement);
             }, 3000);
+        } else if (answerIndex === 2) {
+                typeWriter(0, 45, typingEffect);
+                setTimeout(() => {
+                    let imageElement = document.createElement('img');
+                    imageElement.setAttribute('src', motPeinture);
+                    imageElement.style.height = '70%';
+                    ansContainer.appendChild(imageElement);
+                }, 3000);
         } else {
             typeWriter(0, 45, typingEffect);
         }
