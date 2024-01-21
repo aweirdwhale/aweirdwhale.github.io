@@ -1,0 +1,183 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+.Drawer{
+    background-color: black;
+    height: 100%;
+    width: 328px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .Colinegpt{
+    position: absolute;
+    width: 15%;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  
+  .coline{
+    color: aliceblue;
+    right: 0;
+    position: absolute;
+    margin-top: 35px;
+    margin-right: 60px;
+    font-size: 20px;
+  }
+  
+  .coco2{
+    color: #747474;
+    left: 0;
+    position: absolute;
+    top: 90px;
+    margin-top: 35px;
+    margin-left: 25px;
+    font-size: 20px;
+  }
+  
+  .coco3{
+    color: #FFF;
+    left: 0;
+    position: absolute;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 20px;
+  }
+  
+  .selected{
+    background-color: rgba(255, 255, 255, 0.225);
+    border-radius: 17px;
+    position: relative;
+
+
+    top: 140px;
+    margin-top: 30px;
+    margin-left: 25px;
+
+
+    height: 50px;
+    width: 80%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+
+.main{
+    position: absolute;
+    left: 328px;
+    width: calc(100% - 328px);
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    top: 0;
+}
+
+.input__field{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+
+    transform: translateX(-50%);
+    width: 60%;
+    height: 50px;
+    border-radius: 15px;
+
+    background-color: transparent;
+    border: 5px solid #B4B4B4;
+    
+    font-size: 20px;
+    color: #464646;
+
+    margin-bottom: 20px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.input__btn{
+    position: absolute;
+    bottom: 0;
+
+    width: 45px;
+    height: 45px;
+    border-radius: 15px;
+
+    background-color: #c9c9c94d;
+    border: none;
+    
+    font-size: 20px;
+
+    margin-bottom: 28px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    cursor: pointer;
+    right: 302px;
+}
+
+.input__btn > svg{
+    position: relative;
+    top: 49%;
+    left: 53%;
+
+    transform: translate(-50%, -50%);
+    
+}
+
+#ans-container{
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 50%;
+    height: 60%;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    text-align: left;
+    font-size: large;
+
+    
+}
+
+.header__center{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__txt{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    font-size: 20px;
+    color: #464646;
+}
