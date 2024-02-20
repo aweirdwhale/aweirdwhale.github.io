@@ -2,15 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Albatross</title>
-    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
-    <meta name="description" content="Albatross, une équipe de NSI du lycée général et technologique de Châteaurenard !" />
+    <title>Aweirdwhale's APIs</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <main>
+        <div class="textfield">
+            <p>Hey ! You've probably lost your way.</p>
+            <p>Let me redirect you ! <code>( 4 )</code></p>
+            
+        </div>
+        <img src="./whale.png" alt="whale">
+        <img src="./whale.png" alt="whale">
+    </main>
+
     <script>
-        window.location.replace("./colinegpt/main.html");
+        const countdown = document.querySelector("code");
+        let count = 4;
+
+        setInterval(() => {
+            count--;
+            countdown.textContent = "( " + count + " )";
+            console.log(count);
+            if (count === 0) {
+                window.location.href = "https://aweirdwhale.xyz/";
+                return;
+            }
+        }, 1000);
     </script>
 </body>
 </html>

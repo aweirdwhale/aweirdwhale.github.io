@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Subjectivity';
+    src: url('./Subjectivity.ttf');
+}
+
+
+body {
+    background-color: #EBEAE4;
+    font-family: Subjectivity, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.textfield {
+    background-color: '#EBEAE4';
+    width: 350px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    line-height: 20px;
+}
+
+img{
+    position: absolute;
+    top: -10%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+    
+    z-index: -1;
+    scale: 0.5;
+}
+
+img:nth-child(2){
+    position: absolute;
+    top: 26%;
+    left: -13%;
+    transform: scaleX(-1);
+    
+    
+    z-index: -1;
+}
+
+code{
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    color: #4587ba;
+}
+
+@media screen and (max-width: 1092px){
+    img{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 362px){
+    p{
+        font-size: 5vw;
+    }
+}
